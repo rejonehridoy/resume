@@ -1,0 +1,155 @@
+.resume{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.row{
+    margin-bottom: 0px;
+}
+.container{
+    margin-bottom: 0px;
+}
+.introduction{
+    background-color: rgb(28, 28, 28);
+}
+.picture{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+.title{
+    padding: 45px 30px;
+}
+.name{
+    color: white;
+}
+.intro-text{
+    color: white;
+}
+.side-section{
+    background-color: lightgray;
+    padding: 25px 30px;
+}
+.main-section{
+    padding: 25px 30px;
+}
+.contact-section{
+    line-height: 0fr;
+}
+.section-title{
+    font-weight: 800;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+.contact-section span{
+    font-weight: 500;
+    color: black;
+}
+a{
+    /* border: 1px solid #df0000; */
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    color:#df0000;
+}
+.company-name{
+    font-weight: 800;
+}
+.company-details{
+    margin-bottom: 10px;
+}
+.company-info{
+    line-height: 105%;
+}
+.company-info small{
+    color: black;
+    font-weight: 500;
+}
+.designation{
+    margin: auto 0;
+    font-weight: 600;
+}
+.project-name, .research-name{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.project-item, .research-item{
+    margin-bottom: 5px;
+}
+.project-details, .research-details{
+    line-height: 105%;
+    padding-left: 25px;
+}
+.project-details span, .research-details span{
+    padding-right: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.rating-plus{
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #df0000;
+}
+.rating-minus{
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #646262;
+}
+.skill-item{
+    line-height: 120%;
+}
+.skill-name{
+    margin: auto 0;
+    font-weight: 700;
+    color: black;
+}
+.education, .personal-projects, .research{
+    margin-bottom: 15px;
+}
+.skills-group{
+    color: #df0000;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.education-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.education-details{
+    font-weight: 500;
+    padding-left: 30px;
+    line-height: 120%;
+}
+.education-item{
+    margin-bottom: 5px;
+}
+
+
+
+/* Icons */
+.bi-envelope-fill, .bi-telephone-fill, .bi-geo-alt-fill, .bi-github, .bi-linkedin{
+    padding-left: 2px;
+    padding-right: 8px;
+    color: #df0000
+}
+.company .bi-geo-alt-fill, .bi-calendar3, .bi-back, .bi-lightbulb{
+    padding-left: 2px;
+    padding-right: 8px;
+    color: black;
+}
+.education-item .bi-mortarboard-fill{
+    padding-left: 2px;
+    padding-right: 8px;
+    color: black;
+}
+
