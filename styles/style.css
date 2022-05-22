@@ -121,6 +121,9 @@ a:hover{
 .skill-item{
     line-height: 120%;
 }
+.skill-item p span{
+    font-weight: 400;
+}
 .skill-name{
     margin: auto 0;
     font-weight: 700;
