@@ -13,6 +13,7 @@
 }
 .picture{
     width: 150px;
+    height: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -73,13 +74,26 @@ a:hover{
     margin: auto 0;
     font-weight: 600;
 }
-.project-name, .research-name{
+.project-name, .research-name, .certificate-name, .referee-name{
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 0px;
 }
+.certificate-item p, .achievements-honours-awards-item p{
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
 .project-item, .research-item{
     margin-bottom: 5px;
+}
+.reference-item{
+    margin-bottom: 10px;
+    line-height: 110%;
+}
+.reference-item span{
+    color: black;
+    font-weight: 400;
 }
 .project-details, .research-details{
     line-height: 105%;
@@ -112,7 +126,7 @@ a:hover{
     font-weight: 700;
     color: black;
 }
-.education, .personal-projects, .research{
+.education, .personal-projects, .research, .certificate, .achievements-honours-awards, .participation .reference{
     margin-bottom: 15px;
 }
 .skills-group{
@@ -133,6 +147,13 @@ a:hover{
 .education-item{
     margin-bottom: 5px;
 }
+.participation ul{
+    margin-left: 0;
+    padding-left: 18px;
+    line-height: 125%;
+    font-weight: 500;
+    font-size: 14px;
+}
 
 
 
@@ -142,7 +163,7 @@ a:hover{
     padding-right: 8px;
     color: #df0000
 }
-.company .bi-geo-alt-fill, .bi-calendar3, .bi-back, .bi-lightbulb{
+.company .bi-geo-alt-fill, .bi-calendar3, .bi-back, .bi-lightbulb, .bi-infinity, .bi-trophy-fill{
     padding-left: 2px;
     padding-right: 8px;
     color: black;
@@ -151,5 +172,18 @@ a:hover{
     padding-left: 2px;
     padding-right: 8px;
     color: black;
+}
+
+
+/* Media Query for Smaller Devices*/
+@media screen and (max-width: 992px) {
+    .title{
+        padding-bottom: 15px;
+    }
+    .picture{
+        padding-bottom: 15px;
+        width: 140px;
+        height: auto;
+    }
 }
 
