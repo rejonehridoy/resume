@@ -33,7 +33,13 @@
     padding: 25px 30px;
 }
 .main-section{
-    padding: 25px 30px;
+    padding: 25px 0px;
+}
+.work-history-section, .education, .personal-projects, .research, .certificate, .achievements-honours-awards, .participation, .reference{
+    padding: 0px 30px;
+}
+.sub-main-section{
+    padding-left: 0px;
 }
 .contact-section{
     line-height: 0fr;
@@ -129,6 +135,10 @@ a:hover{
     font-weight: 700;
     color: black;
 }
+.skills-section{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .education, .personal-projects, .research, .certificate, .achievements-honours-awards, .participation .reference{
     margin-bottom: 15px;
 }
@@ -156,6 +166,12 @@ a:hover{
     line-height: 125%;
     font-weight: 500;
     font-size: 14px;
+}
+.col-md-5{
+    max-width: 100% !important;
+}
+.col-md-7{
+    max-width: 100% !important;
 }
 
 
@@ -189,7 +205,7 @@ a:hover{
         height: auto;
     }
     .skills-section h5, .education h5{
-        padding-top: 15px;
+        /* padding-top: 15px; */
     }
 }
 
