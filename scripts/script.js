@@ -103,7 +103,6 @@ function GetAllSkills(){
             let itemDesign = '';
             if(skill.description === undefined) {
                 itemDesign += `<div class="skill-item d-flex justify-content-between align-items-center"><p class="skill-name">${skill.name}</p><div class="d-flex justify-content-center">`;
-                console.log('description found');
             }else{
                 itemDesign += `<div class="skill-item d-flex justify-content-between align-items-center"><p class="skill-name">${skill.name} <br><span>${skill.description}</span></p><div class="d-flex justify-content-center">`;
             }
@@ -118,7 +117,7 @@ $('#skills-zone').html(GetAllSkills());
 
 // for mobile devices only
 if(screen.width < 768){
-    $('.skills-section').insertAfter('.work-history-section');  // appendTo -> selector
+    $('.skills-section').insertAfter('.work-history-section');
     $('.skills-section').css('padding-left','25px');
     $('.skills-section').css('padding-right','25px');
     $('.skills-section').css('margin-top','15px');
